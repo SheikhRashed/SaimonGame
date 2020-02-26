@@ -30,7 +30,7 @@ strictButton.addEventListener('click', (event) => {
 onButton.addEventListener('click', (event) => {
   if (onButton.checked == true) {
     on = true;
-    turnCounter.innerHTML = "-";
+    turnCounter.innerHTML = "ON";
   } else {
     on = false;
     turnCounter.innerHTML = "OFF";
